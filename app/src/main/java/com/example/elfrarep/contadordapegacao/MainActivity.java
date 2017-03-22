@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final TextView contadorTextView = (TextView) findViewById(R.id.contadorTextView);
-//
+
         final Button adicionar = (Button) findViewById(R.id.adicionarButton);
 
         adicionar.setOnClickListener(new View.OnClickListener(){
